@@ -1,0 +1,20 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.StandpointTheoryPackage
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.SituatedKnowledgeBridge
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.EpistemicJusticeFramework
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.TestimonialInjusticeModel
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.HermeneuticalInjusticeModel
+import HautevilleHouse.EpistemologyFeministEpistemologyCanonicalLaneLean.FeministEmpiricismPackage
+
+namespace HautevilleHouse
+namespace EpistemologyFeministEpistemologyCanonicalLaneLean
+
+def ConstrainedFeministEpistemologyClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_feminist_epistemology_endgame (A : AdmissibleClass) :
+    ConstrainedFeministEpistemologyClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end EpistemologyFeministEpistemologyCanonicalLaneLean
+end HautevilleHouse
